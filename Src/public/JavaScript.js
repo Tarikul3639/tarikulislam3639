@@ -62,8 +62,8 @@ const resumeDownloadIcon = document.querySelector(".resumeButton i");
 //CV download function
 cvButton.addEventListener("click", function() {
   const link = document.createElement('a');
-  link.href = 'CV & RESUME/CV.pdf'; 
-  link.download = 'CV & RESUME/CV.pdf';
+  link.href = './Src/assets/CV .pdf'; 
+  link.download = 'Tarikul Islam CV.pdf';  
   link.click();
   cvButton.style.background="transparent";
   cvButton.style.color="#08ff99";
@@ -73,8 +73,8 @@ cvButton.addEventListener("click", function() {
 //Resume Download function
 resumeButton.addEventListener("click",function(){
   const link = document.createElement("a");
-  link.href="CV.pdf";
-  link.download="CV.pdf";
+  link.href = './Src/assets/CV .pdf'; 
+  link.download = 'Tarikul Islam Resume.pdf';
   link.click();
   resumeButton.style.background="transparent";
   resumeButton.style.color="#08ff99";
